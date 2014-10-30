@@ -1,1 +1,57 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<script type="text/javascript">
 
+//<![CDATA[
+
+
+function html2entities(){
+var re=/[<>"'&]/g
+for (i=0; i<arguments.length; i++)
+arguments[i].value=arguments[i].value.replace(re, function(m){return replacechar(m)})
+}
+
+function replacechar(match){
+if (match=="<")
+return "&lt;"
+else if (match==">")
+return "&gt;"
+else if (match=="\"")
+return "&quot;"
+else if (match=="'")
+return "&#039;"
+else if (match=="&")
+return "&amp;"
+}
+//]]>
+</script>
+<script type="text/javascript">
+
+//<![CDATA[
+
+//Character count script
+function countit(what){
+formcontent=what.form.charcount.value
+what.form.displaycount.value=formcontent.length
+}
+
+//]]>
+</script>
+</head>
+<body>
+
+<form>
+  <p><font face="Arial, Helvetica, sans-serif" size="2" color="#6B828E"> </font></p>
+<p>
+    <font face="Arial, Helvetica, sans-serif" size="2" color="#6B828E"><textarea name="data1" style="width: 485px; height: 200px;overflow:hidden; background-image:url(html-coder-txt.jpg); background-repeat:no-repeat; padding:10px;">//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;amp;version=v2.0</textarea>
+  </font></p>
+  <p align=""><font face="Arial, Helvetica, sans-serif" size="2" color="#6B828E"><br>
+      <input name="button" class="abt2" onclick="html2entities(this.form.data1)" onmouseover="this.className='abt2 abt2hov'" onmouseout="this.className='abt2'" value="Convert" type="button">
+      <input onmouseover="this.className='abt3 abt3hov'" onmouseout="this.className='abt3'" class="abt3" name="Clear" value="  Clear  " type="reset">
+    
+
+
+</font></p></form></body>
+
+</html>
