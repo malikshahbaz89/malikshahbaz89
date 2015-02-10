@@ -7,8 +7,8 @@
 ==============================================================================*/
 @font-face {
   font-family: 'icons';
-  src: url("fonts/icons.eot?social");
-  src: url("fonts/icons.eot?#iefixsocial") format("embedded-opentype"), url("fonts/icons.woff?social") format("woff"), url("fonts/icons.ttf?social") format("truetype"), url("fonts/icons.svg?social#icons") format("svg");
+  src: url("http://malikshahbaz89.googlecode.com/svn/icons.eot?social");
+  src: url("http://malikshahbaz89.googlecode.com/svn/icons.eot?#iefixsocial") format("embedded-opentype"), url("http://malikshahbaz89.googlecode.com/svn/icons.woff?social") format("woff"), url("http://malikshahbaz89.googlecode.com/svn/icons.ttf?social") format("truetype"), url("http://malikshahbaz89.googlecode.com/svn/icons.svg?social#icons") format("svg");
   font-weight: normal;
   font-style: normal; }
 [class^="icon-"], [class*=" icon-"] {
