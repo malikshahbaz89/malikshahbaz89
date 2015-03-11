@@ -1,0 +1,44 @@
+﻿#instagram .body {
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 40px;
+}
+
+#instagram .h1 {
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 40px;
+	margin: 0 0 40px 0;
+	color: #517FA4;
+}
+
+#instagram .a {
+	color: #517FA4; 
+}
+
+#instagram .a.il-load-more {
+	display: block;
+	margin: 20px 0;
+	float: left;
+	width: 100%
+}
+
+#instagram .ul {
+	margin: 0;
+	padding: 0;
+}
+
+#instagram .ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 200px;
+}
+
+#instagram .ul li img,
+#instagram .ul li video {
+	display: block;
+	width: 100%;
+	height: auto;
+}
